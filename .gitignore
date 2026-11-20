@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Student personal data and datasets
+FaceRecognition_Dataset/
+student_photos/
+data/
+reports/
+student_details.xlsx
+
+# Face images and test images
+*.jpg
+*.jpeg
+*.png
+
+# Face recognition model files (large or data-containing files)
+models/*.pt
+
+# Empty accidental file
+python
+
+# OS files
+.DS_Store
+Thumbs.db
